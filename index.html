@@ -40,6 +40,25 @@ transform:scale(1.05);
 footer{
 margin-top:0;
 }
+   .hero h1{
+animation:fadeUp 1.5s ease;
+text-shadow:3px 3px 10px rgba(0,0,0,.5);
+}
+
+.hero p{
+animation:fadeUp 2s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
     
 *{
 margin:0;
